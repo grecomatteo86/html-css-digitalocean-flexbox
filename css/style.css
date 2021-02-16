@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* first_section */
+.first_section{
+  background-color:rgb(243, 245, 249);
+}
+.third_title{
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(150, 159, 179);
+  font-size: 12px;
+  padding:20px 0;
+}
+.logs_container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding:20px 0;
+}
+.cta{
+  text-align: center;
+}
+.link{
+  padding: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.angle{
+  font-size: 10px;
+}
+.link, .angle{
+  color:blue;
+}
+/* /first_section */
