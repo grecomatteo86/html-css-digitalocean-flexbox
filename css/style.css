@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-/* first_section */
 .first_section{
   background-color:rgb(243, 245, 249);
 }
@@ -40,9 +39,6 @@
 .link, .angle{
   color:blue;
 }
-/* /first_section */
-
-/* second_section */
 .second_section{
   width: 80%;
   margin: auto;
@@ -87,30 +83,20 @@
 .fourth_title{
   margin: 5px 0;
 }
-/* /second_section */
-/* responsiveness */
 @media screen and (max-width:768px) {
-
   .img_container{
     width: 50%;
   }
-
   .left_part{
     flex-basis: 100%;
     justify-content: flex-start;
     margin-bottom: 10px;
   }
-
   .right_part{
     flex-basis: 100%;
 
   }
-
   .box{
     flex-basis: 100%;
   }
-
 }
-
-
-/* /responsiveness */
